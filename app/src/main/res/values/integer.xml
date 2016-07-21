@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="keyboard_normal">0</integer>
+    <integer name="keyboard_numbers">1</integer>
+    <integer name="keyboard_numbers_second">2</integer>
+    <integer name="keyboard_arabic">3</integer>
+</resources>
