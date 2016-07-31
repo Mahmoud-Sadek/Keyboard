@@ -6,4 +6,5 @@
     android:layout_height="wrap_content"
     android:layout_alignParentBottom="true"
     android:keyPreviewLayout ="@layout/preview"
-    />
+    android:background="@drawable/back_aboutrika"
+    android:keyBackground="@drawable/ahly_button" />

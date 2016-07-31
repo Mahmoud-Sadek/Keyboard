@@ -8,6 +8,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
+import android.widget.Toast;
 
 /**
  * Created by Mahmoud on 7/13/2016.
@@ -204,21 +205,21 @@ public class Mykeyboard extends InputMethodService
 
     @Override
     public void swipeDown() {
-
+        Toast.makeText(Mykeyboard.this, "swipe", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void swipeLeft() {
-
+        Toast.makeText(Mykeyboard.this, "swipe", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void swipeRight() {
-
+        Toast.makeText(Mykeyboard.this, "swipe", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void swipeUp() {
-
+        Toast.makeText(Mykeyboard.this, "swipe", Toast.LENGTH_SHORT).show();
     }
 }
